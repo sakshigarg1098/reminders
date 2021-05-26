@@ -58,3 +58,5 @@ def notification_message(a_string):
 with open("C:/Users/Acer/Desktop/reminder_data.txt", "r") as data:
     for rem in data.readlines():
         print('Message - ', notification_message(convert_time(rem)).strip(), ', Time - ', notification_time(convert_time(rem)))
+
+print("testing branch")
